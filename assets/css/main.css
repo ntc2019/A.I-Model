@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Chakra+Petch:ital,wght@1,300&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans+Extra+Condensed:ital,wght@1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alexandria&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=RocknRoll+One&display=swap');
+
+@font-face {
+    font-family: 'Mioge';
+    src: url('../fonts/miogefreetrial-wybmz.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'Sorcha';
+    src: url('../fonts/SorchaDemo-1GMWv.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'Moniqa';
+    src: url('../fonts/Moniqa-MediumHeading.otf') format('opentype');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img,
+picture {
+    width: 100%;
+    object-fit: cover;
+    vertical-align: middle;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+html {
+    font-size: 0.625rem;
+    font-family: 'Lato', sans-serif;
+}
+
+p,
+a,
+span {
+    font-size: 1.6rem;
+}
+
+.mask-svg {
+    height: 0;
+    width: 0;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+}
