@@ -175,7 +175,6 @@ gsap.fromTo('.img-wrapper img.front',{'--right': '100%','--top':'0%'},{'--right'
     start: 'start 100px',
     end:'top -1500px',
     scrub: 2,
-    markers:true
 
 }})
 
